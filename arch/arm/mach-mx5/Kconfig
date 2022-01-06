@@ -74,7 +74,7 @@ config MACH_TS48XX
         bool "Support TS-48XX SBC"
 	select ARCH_MX51
         help
-          Include support for the Technologic Systems TS-48XX SBC
+          Include support for the embeddedTS TS-48XX SBC
 
 comment "MX5x Options:"
 

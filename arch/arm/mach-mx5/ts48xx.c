@@ -1324,7 +1324,7 @@ static struct sys_timer mxc_timer = {
  * initialize __mach_desc_MX51_BABBAGE data structure.
  */
 /* *INDENT-OFF* */
-MACHINE_START(TS48XX, "Technologic Systems TS-48XX SBC")
+MACHINE_START(TS48XX, "embeddedTS TS-48XX SBC")
 	/* Maintainer: Freescale Semiconductor, Inc. */
 	.phys_io	= AIPS1_BASE_ADDR,
 	.io_pg_offst	= ((AIPS1_BASE_ADDR_VIRT) >> 18) & 0xfffc,
